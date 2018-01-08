@@ -1,26 +1,26 @@
 .spoiler-wrap {
-	border: 1px solid #3b6d3d;
-	background: #e9ffd0;
+	border: 1px solid #ddd;
+	background: #f1f1f1;
 }
+
 .spoiler-head {
-	margin-left: 5px;
-	padding: 5px 15px;
-	font-size: 12px;
-	line-height: 25px;
+	padding: 10px;
+	line-height: 1.5;
 	cursor: pointer;
 }
-.folded {
-	display: block;
-	padding-left: 15px;
-	background: url(images/plus.gif) no-repeat left center;
+
+.folded:before {
+	content: "+";
+	margin-right: 5px;
 }
-.unfolded {
-	display: block;
-	padding-left: 15px;
-	background: url(images/minus.gif) no-repeat left center;
+
+.unfolded:before {
+	content: "–";
+	margin-right: 5px;
 }
+
 .spoiler-body {
-	padding: 5px;
-	border-top: 1px solid #3b6d3d;
-	background: #f4fef3;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+	background: #fbfbfb;
 }
