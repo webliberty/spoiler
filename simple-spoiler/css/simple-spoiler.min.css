@@ -1,0 +1,1 @@
+.spoiler-wrap{border:1px solid #ddd;background:#f1f1f1}.spoiler-head{padding:10px;line-height:1.5;cursor:pointer}.folded:before{content:"+";margin-right:5px}.unfolded:before{content:"–";margin-right:5px}.spoiler-body{padding:10px;border-top:1px solid #ddd;background:#fbfbfb}
