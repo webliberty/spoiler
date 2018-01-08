@@ -17,11 +17,11 @@
 
 The plugin allows to create simple spoilers with shortcode.
 
-## Description ##
+## How to use ##
 
-`Example: [spoiler]Spoiler content[/spoiler]`
+Example: `[spoiler]Spoiler content[/spoiler]`
 
-`Example: [spoiler title="Show spoiler"]Spoiler content[/spoiler]`
+Example: `[spoiler title="Show spoiler"]Spoiler content[/spoiler]`
 
 ## Installation ##
 
