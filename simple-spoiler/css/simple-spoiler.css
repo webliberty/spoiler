@@ -1,0 +1,26 @@
+.spoiler-wrap {
+	border: 1px solid #3b6d3d;
+	background: #e9ffd0;
+}
+.spoiler-head {
+	margin-left: 5px;
+	padding: 5px 15px;
+	font-size: 12px;
+	line-height: 25px;
+	cursor: pointer;
+}
+.folded {
+	display: block;
+	padding-left: 15px;
+	background: url(images/plus.gif) no-repeat left center;
+}
+.unfolded {
+	display: block;
+	padding-left: 15px;
+	background: url(images/minus.gif) no-repeat left center;
+}
+.spoiler-body {
+	padding: 5px;
+	border-top: 1px solid #3b6d3d;
+	background: #f4fef3;
+}
