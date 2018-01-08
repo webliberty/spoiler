@@ -22,9 +22,9 @@ function s_spoiler($atts, $content) {
 		$sp_name = $atts[name];
 	}
 	return '<div class="spoiler-wrap">
-					<div class="spoiler-head folded">'.$sp_name.'</div>
-				<div class="spoiler-body">'.$content.'</div>
-			</div>';
+			<div class="spoiler-head folded">'.$sp_name.'</div>
+			<div class="spoiler-body">'.$content.'</div>
+		</div>';
 }
 add_shortcode( 'spoiler', 's_spoiler' );
 
