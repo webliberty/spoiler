@@ -15,6 +15,8 @@
 
 **License URI:** https://www.gnu.org/licenses/gpl-3.0.html
 
+## Description ##
+
 The plugin allows to create simple spoilers with shortcode.
 
 ## How to use ##
